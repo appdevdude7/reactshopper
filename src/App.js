@@ -15,14 +15,14 @@ function App() {
     <Router>
       <div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <Link class="navbar-brand" to="/">Navbar</Link>
+          <Link class="navbar-brand" to="/">ReactShopper</Link>
         <div class="collapse navbar-collapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <Link class="nav-link" to="/">Home <span class="sr-only">(current)</span></Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link align-right" to="/product">Link</Link>
+              <Link class="nav-link align-right" to="/product">Product</Link>
             </li>
           </ul>
         </div>
