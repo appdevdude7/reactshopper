@@ -8,7 +8,7 @@ const SinglePage = () => {
             <div class="card-body">
                 <h5 class="card-title">Head Phones</h5>
                 <p class="card-text">Cool headset to buy and play your favourite music, order now!!</p>
-                <a href="/" class="btn btn-primary">Add to Cart</a>
+                <a href="/cart" class="btn btn-primary">Add to Cart</a>
             </div>
         </div>
         </div>

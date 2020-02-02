@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import SinglePage from './components/SinglePage';
 import Home from './components/Home';
+import Cart from './components/Cart';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
             </li>
             <li class="nav-item">
               <Link class="nav-link align-right" to="/product">Product</Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link align-right" to="/cart">Cart</Link>
             </li>
           </ul>
         </div>
@@ -43,6 +47,9 @@ function App() {
         <Switch>
           <Route path="/product">
             <SinglePage />
+          </Route>
+          <Route path="/cart">
+            <Cart />
           </Route>
           <Route path="/">
             <Home />
