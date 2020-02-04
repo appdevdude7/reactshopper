@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const SinglePage = () => {
     return (
@@ -8,7 +9,7 @@ const SinglePage = () => {
             <div class="card-body">
                 <h5 class="card-title">Head Phones</h5>
                 <p class="card-text">Cool headset to buy and play your favourite music, order now!!</p>
-                <a href="/cart" class="btn btn-primary">Add to Cart</a>
+                <Link to="/cart" class="btn btn-primary">Add to Cart</Link>
             </div>
         </div>
         </div>
